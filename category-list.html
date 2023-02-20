@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="bg-slate-50 block h-[700px] ">
+        <div class="w-[1450px] mx-auto">
+            <div class=" grid grid-cols-[400px,auto] pt-10 gap-12">
+                <!-- ----------------------------------------HEADER -->
+                <header class="bg-white">
+                    <div class="w-[80px] mx-auto">
+                        <img src="./image/IMG_7574.JPG" width="80" class="h-[80px] rounded-full" alt="">
+                    </div>
+                    <nav>
+                        <ul class="">
+                            <li><a class="grid grid-cols-[40px,auto] w-full px-10 py-3 hover:bg-indigo-400 hover:rounded-xl hover:text-white transition-all deley-100"
+                                    href="index.html"><i class="fa-solid fa-house mt-3"></i>
+                                    <h1 class=" text-[25px]">Dashboard</h1>
+                                </a></li>
+                            <li><a class="grid grid-cols-[40px,auto] w-full px-10 py-3 hover:bg-indigo-400 hover:rounded-xl hover:text-white transition-all deley-100"
+                                    href=""><i class="fa-solid fa-plus mt-3"></i>
+                                    <h1 class=" text-[25px]">Category</h1>
+                                </a></li>
+                            <li><a class="grid grid-cols-[40px,auto] w-full px-10 py-3 hover:bg-indigo-400 hover:rounded-xl hover:text-white transition-all deley-100"
+                                    href="projects.html"><i class="fa-brands fa-r-project mt-3"></i>
+                                    <h1 class=" text-[25px]">Projects</h1>
+                                </a></li>
+                            <li><a class="grid grid-cols-[40px,auto] w-full px-10 py-3 hover:bg-indigo-400 hover:rounded-xl hover:text-white transition-all deley-100"
+                                    href=""><i class="fa-solid fa-user mt-3"></i>
+                                    <h1 class=" text-[25px]">Accounts</h1>
+                                </a></li>
+                            <li><a class="grid grid-cols-[40px,auto] w-full px-10 py-3 hover:bg-indigo-400 hover:rounded-xl hover:text-white transition-all deley-100"
+                                    href=""><i class="fa-solid fa-comment mt-3"></i>
+                                    <h1 class=" text-[25px]">Comment</h1>
+                                </a></li>
+                            <li><a class="grid grid-cols-[40px,auto] w-full px-10 py-3 hover:bg-indigo-400 hover:rounded-xl hover:text-white transition-all deley-100"
+                                    href=""><i class="fa-solid fa-chart-simple mt-3"></i>
+                                    <h1 class=" text-[25px]">Statistical</h1>
+                                </a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <!-- -----------------------------------------CONTENT -->
+                <section class="box">
+                    <div class="title flex align-center">
+                        <h1 class="font-bold text-[30px] ">List Category</h1>
+                        <form class="ml-6">
+                            <input type="text" class="border px-3 py-2 rounded-md outline-none"
+                                placeholder="Mời bạn nhập project muốn tìm">
+                            <button
+                                class="bg-blue-500 px-3 py-2 rounded-md text-white hover:bg-blue-600 deley-100">Search</button>
+                        </form>
+                    </div>
+                    <table class="border w-full mb-4">
+                        <thead>
+                            <tr class="border bg-slate-400 text-[23px] ">
+                                <th class="border w-[60px] py-6">Id</th>
+                                <th class="border w-[200px]">Tên Loại</th>
+                                <th class="border"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="py-4 text-[18px]">
+                                <td class="border text-center w-[60px] py-4">1</td>
+                                <td class="border px-5 w-[200px]">Dự án 1</td>
+                                <td class="border text-center w-[100px]">
+                                    <a class="bg-red-500 px-3 py-2 rounded-md text-white hover:bg-red-600 deley-100"
+                                        href="">Xóa</a>
+                                    <a class="bg-green-500 px-3 py-2 rounded-md text-white hover:bg-green-600 deley-100"
+                                        href="">Sửa</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <form>
+                        <a href="./category-list.html"
+                            class="bg-slate-500 px-3 py-2 rounded-md text-white hover:bg-slate-600 deley-100">Nhập
+                            lại</a>
+                        <button
+                            class="bg-blue-500 px-3 py-2 rounded-md text-white hover:bg-blue-600 deley-100">Lưu</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
